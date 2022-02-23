@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 100;
+  padding: 100;
+  box-sizing: border-box;
+  font-family: 'GmarketSansMedium';
+}
+
+body {
+  background-color: RGB(255, 255, 255);
+}
+
+.account-main,
+.account-form {
+  width: 460px;
+  margin: auto;
+}
+
+.account-logo {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  margin: 12px;
+}
+
+.account-info1 {
+  margin-bottom: 36px;
+}
+
+.input-form {
+  margin-bottom: 12px;
+}
+
+.input-form > label {
+  display: inline-block;
+  width: 100%;
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.inline-input {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 0;
+  border: 1px solid #9c9c9c;
+  background-color: white;
+}
+
+.inline-input > input {
+  border-style: none;
+  margin: 0 8px;
+  width: 320px;
+}
+
+.inline-input > input:focus {
+  outline-style: none;
+}
+
+.inline-input > span {
+  float: left;
+  margin: 0 8px;
+  line-height: 24px;
+}
+
+.account-submit > button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 20px;
+  background-color: #97D2D4;
+  color: white;
+  border-style: none;
+}

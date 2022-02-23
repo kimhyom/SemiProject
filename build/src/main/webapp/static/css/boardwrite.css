@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansMedium';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') 
+	format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: 'GmarketSansMedium';
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#write-main {
+	width:800px;
+	margin:auto;
+}
+
+#logo {
+	text-align: center;
+}
+#logo img {
+	padding-top:30px;
+}
+
+table {
+	margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead {
+	height: 50px;
+	background-color: #F3B2CF;
+	font-size: 33px;
+	margin-top: 30px;
+}
+table thead th {
+	color: white;
+	line-height:50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+table td {
+	border-bottom: 1px solid #97D2D4;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	vertical-align: top;
+}
+
+.cols1 {
+	width: 100px;
+	padding-left: 15px;
+}
+
+input[type="text"] {
+	width: 640px;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 4.6px;
+	border: 1px solid rgb(204,204,204);
+	outline-style:none;
+}
+textarea {
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 4.6px;
+	border: 1px solid rgb(204,204,204);
+	outline-style:none;
+}
+
+#form-button div {
+	display: inline-block;
+	margin-top: 24px;
+}
+
+#form-button button {
+	outline:none;
+	height: 30px;
+	text-align: center;
+	width: 70px;
+	border-radius:40px;
+	background: #fff;
+	border: 2px solid #F3B2CF;
+	color:#F3B2CF;
+}
+
+.right {
+	float: right;
+}
